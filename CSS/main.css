@@ -41,7 +41,6 @@ li {
 figcaption{
 	font-family: 'Lato', sans-serif;
 	font-size: 1 em;
-
 }
 
 #splash{
@@ -50,60 +49,65 @@ figcaption{
 	padding-bottom: 30em;
 	margin-bottom: 2em;
 	font-family: 'Lato', sans-serif;
-
 }
 
 #service{
+   overflow: auto;
 	width: 100%;
 	text-align: center;
 	text-decoration: none;
 }
 
 #services1{
-	width: 20%;
+	width: 25%;
 	float: left;
-	margin-right: 5px
-	clear:both;
-	margin-bottom: 20px
+	/* margin-right: 5px; */
+	margin-bottom: 20px;
 }
 
 #services2{
-	width: 20%;
+	width: 25%;
 	float: left;
-	margin-right: 5px
-	clear:both;
-	margin-bottom: 20px
-
+	/* margin-right: 5px; */
+	margin-bottom: 20px;
 }
 
 #services3{
-	width: 20%;
+	width: 25%;
 	float: left;
-	margin-right: 5px
-	clear:both;
-	margin-bottom: 20px
-
+	/* margin-right: 5px; */
+	margin-bottom: 20px;
 }
 
 #services4{
-	width: 20%;
+	width: 25%;
 	float: left;
-	margin-right: 5px
-	clear:both;
-	margin-bottom: 20px
-
+	/* margin-right: 5px; */
+	margin-bottom: 20px;
 }
 
-img{
-	float: left;
-	clear:both;
+#service img{
+   width: 100%;
 }
 
-#about{
-	float: left;
-	margin-right: 5px
-	clear:both;
-
+#about figure img {
+   float: left;
+   width: 50%;
+   margin-right: 5px;
 }
 
+#signup {
+   text-align: center;
+   clear: both;
+}
 
+button {
+   margin: 20px;
+   padding: 20px;
+   border: 0;
+}
+
+button:hover {
+   color: red;
+   background-color: white;
+}
